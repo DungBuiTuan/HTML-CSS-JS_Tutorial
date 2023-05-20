@@ -1,0 +1,26 @@
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: turquoise;
+}
+li a{
+    float: left;
+    display: block;
+    color: white;
+    padding: 10 px 15 px;
+    text-align: center;
+    text-decoration: none;
+    border-right: 1px solid black;
+    min-width: 60px;
+}
+li a:hover{
+    background-color: aqua;
+    animation: myanimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes myanimation{
+    50%{text-shadow: 0px 0px 10px yellow;    }
+}

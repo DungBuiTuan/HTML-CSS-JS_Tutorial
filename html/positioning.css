@@ -1,0 +1,49 @@
+/*p{
+    border: 1px solid;
+    width: 200px;
+}
+#p1{
+    text-align: left;
+}
+#p2{
+    text-align: center;
+}
+#p3{
+    text-align: right;
+}*/
+img{
+    float: left;
+    margin: 5px;
+
+}
+div{
+    border: 3px solid;
+    width: 300px;
+}
+h1{
+    border: 5px solid;
+    width: 500px;
+    position: fixed;
+    bottom: 200px;
+    right: 100px;
+    text-align: center;
+    position: sticky;
+}
+#b1{
+    position: relative;
+    border: 1px solid;
+    width: 500px;
+    height: 500px;
+    background-color: greenyellow;
+    bottom: 100px;
+    left: 500px;
+}
+#b2{
+    position: absolute;
+    background-color: honeydew;
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    bottom: -200px;
+    left: 800px;
+}

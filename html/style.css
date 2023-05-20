@@ -1,0 +1,16 @@
+body{
+    background: cornsilk;
+}
+p{
+    font-family:"MV Boli",sans-serif;
+    font-style: italic;
+    font-weight: bold; 
+    font-size: 18px;
+    text-decoration:aquamarine;
+    color: chartreuse;
+    background-color: cyan;
+}
+h1{
+    font-family: 'Aldrich', sans-serif;
+    color: cornsilk;
+}

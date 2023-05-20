@@ -1,0 +1,33 @@
+a:link{
+    color:aqua ;
+}
+a:visited{
+    color: brown;
+}
+button:hover{
+    background-color: chartreuse;
+    color:red ;
+}
+button:active{
+    background-color: darkcyan;
+}
+/*li:first-child{
+    background-color: darksalmon;
+}
+li:last-child{
+    background-color: darkslategray;
+}
+li:nth-child(4){
+    background-color: deeppink;
+}
+li:nth-child(odd){
+    background-color: red;
+}
+li:nth-child(even){
+    background-color: rgb(245, 173, 173);
+}*/
+li:nth-child(2n+0){
+    background-image: linear-gradient(to right,red,green);
+    opacity: 0.5;
+    border: 1px solid;
+}

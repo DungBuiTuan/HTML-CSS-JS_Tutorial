@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-wrap:wrap ;/* chia o ngang*/
+    background-color: chartreuse;
+    height: 400px;
+/*
+    flex-direction: column; chia ô dọc...column-revers đổi ngược thứ tự ô
+    width: 110px;*/
+    /*
+    justify-content: flex-start;
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: space-around;/* chia ô đều*/
+    align-items: flex-end;/*flex-end->chuyển xuống cuối cùng,flex-start->ở đầu,flex-center->trung tâm*/
+}
+.container div{
+    color: aqua;
+    height: 100px;
+    width: 100px;
+    background-color:bisque;
+    text-align: center;
+    line-height: 100px;
+    font-size: 25px;
+    margin: 5px;
+}

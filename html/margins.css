@@ -1,0 +1,14 @@
+html{
+    margin: 10px 500px 500px 750px;
+}
+h1{
+    border: 1px solid;
+    width: 300px;
+    margin-bottom: 25px;
+}
+p{
+    border: 1px solid;
+    width: 300px;
+    padding: 25px;
+    margin: 20%;
+}
