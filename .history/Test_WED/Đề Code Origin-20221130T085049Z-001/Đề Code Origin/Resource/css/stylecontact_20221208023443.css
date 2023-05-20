@@ -1,0 +1,24 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table input {
+    height: 30px;
+    width: 500px;
+    margin: 0 10px;
+}
+
+.mybtn {
+    text-align: center;
+}
+
+input:focus {
+    background-color: green;
+}
+
+@media only screen and (max-width: 768px) {
+    input:focus {
+        background-color: aqua;
+    }
+}

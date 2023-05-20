@@ -1,0 +1,103 @@
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.banner {
+    padding: 0 15px 0 0;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.place-info {
+    padding: 0;
+}
+
+.favourite-place-title h2 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    border-bottom: 5px solid #ACD3C9;
+}
+
+.place {
+    display: flex;
+    justify-content: flex-start;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.place .img-responsive {
+    width: 110px;
+    height: 110px;
+}
+
+.place .relative h3 {
+    width: 100%;
+    font-size: 18px;
+    padding-left: 5px;
+    margin-top: 0;
+}
+
+.container h1 {
+    color: #36ccca;
+    text-align: center;
+    margin-bottom: 29px;
+}
+
+.hotel1 img {
+    width: 100%;
+}
+
+.hotel2 img {
+    width: 100%;
+}
+
+.container .hotel-name {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    background-color: rgba(#58515F, 0.5);
+    text-align: center;
+    margin-left: 138px;
+}
+
+.container .hotel-name h3 {
+    margin: 0;
+}
+
+.tour-price h2 {
+    color: #36ccca;
+    text-align: center;
+}
+
+.table-striped th {
+    text-align: center;
+    color: #ABC7A3;
+    width: 350px;
+}
+
+.table-striped td {
+    text-align: center;
+    color: orange;
+}
+
+#cus-id {
+    width: 48px;
+}
+
+#cus {
+    word-break: break-word;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    background-color: #0E9B93;
+    color: #fff;
+    padding: 10px 0;
+}

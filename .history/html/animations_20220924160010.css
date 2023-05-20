@@ -1,0 +1,80 @@
+#p1 {
+    width: 500px;
+    height: 250px;
+    background-color: red;
+    font-size: 85px;
+    text-align: center;
+    margin: 0px;
+}
+
+#p1:hover {
+    animation: font;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    /*infinite ani lặp*/
+}
+
+@keyframes myanimation {
+    /*from..to-> 2 màu*/
+    0% {
+        background-color: aqua;
+    }
+    25% {
+        background-color: green;
+    }
+    50% {
+        background-color: red;
+    }
+    75% {
+        background-color: pink;
+    }
+    100% {
+        background-color: white;
+    }
+}
+
+@keyframes myrotateani {
+    100% {
+        transform: rotatey(1800deg);
+    }
+    /*chuyển động quay */
+}
+
+@keyframes translate {
+    100% {
+        transform: translate(50px, 50px);
+    }
+    /*di chuyển ngang dọc chéo*/
+}
+
+@keyframes scale {
+    100% {
+        transform: scale(2, 2);
+    }
+    /*phóng to thu nhỏ*/
+}
+
+@keyframes opacity {
+    /* làm mờ*/
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    1000% {
+        opacity: 0;
+    }
+}
+
+@keyframes font {
+    0% {
+        font-size: 50px;
+    }
+    50% {
+        font-size: 200px;
+    }
+    100% {
+        font-size: 50px;
+    }
+}

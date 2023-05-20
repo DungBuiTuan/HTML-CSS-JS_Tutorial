@@ -1,0 +1,136 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header_menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header_menu li {
+    float: left;
+}
+
+.header_menu li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 0 50px 0 200px;
+}
+
+.header_logo img {
+    width: 50px;
+    margin-right: 350px;
+}
+
+.header_search button {
+    background-color: black;
+    color: white;
+}
+
+.banner img {
+    width: 100%;
+    position: relative;
+    top: 4px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 1350px;
+}
+
+.Product {
+    background-color: darkgrey;
+    width: 25%;
+}
+
+.Product h2 {
+    margin: 0%;
+    text-align: center;
+    background-color: #F7681C;
+    color: white;
+}
+
+.Product li {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.best_seller {
+    width: 70%;
+    position: relative;
+    left: 20px;
+}
+
+.best_seller-product {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 35%;
+}
+
+.best_seller-product-content {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.best_seller-product-content p {
+    margin: 10px 0;
+}
+
+.best_seller-title {
+    text-align: center;
+    color: #55C4C6;
+    margin: 40px 0;
+}
+
+.Accessories {
+    margin: 80px 0;
+}
+
+.Accessories-title {
+    text-align: center;
+    color: #55C4C6;
+    margin: 40px 0;
+}
+
+.Accessories-product {
+    display: flex;
+    justify-content: center;
+}
+
+.Accessories-item {
+    margin: 0 5px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    max-width: 280px;
+}
+
+.footer {
+    text-align: center;
+    background: rgb(57, 55, 56);
+    color: white;
+    padding: 8px;
+}

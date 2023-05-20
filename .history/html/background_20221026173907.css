@@ -1,0 +1,24 @@
+body {
+    background-color: #000;
+    ;
+}
+
+html {
+    color: white;
+    background-image: url(../image/pic1.jpg);
+    /* background-color: aqua;
+    background: linear-gradient(grey,green);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-origin: inherit;*/
+}
+
+h1 {
+    background: linear-gradient(blue, green, red, yellow, purple, white);
+}
+
+
+/* #text{
+    background:linear-gradient(to left,blue,green);
+} */

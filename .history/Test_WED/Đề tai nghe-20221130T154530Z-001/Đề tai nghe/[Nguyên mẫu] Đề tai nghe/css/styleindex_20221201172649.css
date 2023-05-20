@@ -1,0 +1,19 @@
+.container-fluid {
+    width: 100%;
+}
+
+.body {
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+}
+
+.best-seller-title {
+    text-align: center;
+}
+
+.body .product img {
+    width: 100px;
+}

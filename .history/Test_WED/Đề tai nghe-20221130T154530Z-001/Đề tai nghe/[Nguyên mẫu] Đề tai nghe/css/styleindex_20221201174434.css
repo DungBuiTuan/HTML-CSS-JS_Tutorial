@@ -1,0 +1,9 @@
+.best-seller-title {
+    text-align: center;
+}
+
+.body .product img {
+    width: 20px;
+    height: 100%;
+    padding: 3px;
+}

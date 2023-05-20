@@ -1,0 +1,36 @@
+.body .service {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.body .combo {
+    text-align: center;
+}
+
+.task1 .relative {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    background-color: rgba(#58515F, 0.5);
+}
+
+.task1 .img {
+    display: block;
+    max-width: 20px;
+    max-height: 95px;
+    width: auto;
+    height: auto;
+}
+
+.orderonline {
+    text-align: center;
+}
+
+.footer {
+    background-color: #2e2e2e;
+    color: #fff;
+    padding-top: 10px;
+    text-align: center;
+}

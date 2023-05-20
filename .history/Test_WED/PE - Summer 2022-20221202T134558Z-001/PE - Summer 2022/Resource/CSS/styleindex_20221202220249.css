@@ -1,0 +1,30 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul {
+    list-style: none;
+}
+
+.header li {
+    float: left;
+}
+
+.header li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header-logo img {
+    size: 50px;
+}

@@ -1,0 +1,27 @@
+body{
+    background-color: lightcoral;
+    color: lightcyan;
+}
+h1{
+    border-bottom-style: dotted;
+    border-color: cyan;
+    border-left-style: double;
+    border-top-style: groove;
+    border-right-style: inherit;
+    border-right-width: 5px;
+    border-right-color: rgb(32, 32, 212) ;
+}
+p{
+    padding: 5px;
+    border-style: solid;
+    border-style: dashed;
+    border-style: dotted;
+    border-style: double;
+    border-style: ridge;
+    border-style: groove;
+    border-style: inset;
+    border-style: outset;
+    border-width: 2px 3px 2px 3px;
+    border-color: cyan;
+    border-radius: 10px;
+}

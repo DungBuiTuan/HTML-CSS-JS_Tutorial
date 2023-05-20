@@ -1,0 +1,34 @@
+#p1 {
+    width: 500px;
+    height: 250px;
+    background-color: red;
+    font-size: 85px;
+    text-align: center;
+    margin: 0px;
+}
+
+#p1:hover {
+    animation: font;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    /*infinite ani lặp*/
+}
+
+@keyframes myanimation {
+    /*from..to-> 2 màu*/
+    0% {
+        background-color: aqua;
+    }
+    25% {
+        background-color: green;
+    }
+    50% {
+        background-color: red;
+    }
+    75% {
+        background-color: pink;
+    }
+    100% {
+        background-color: white;
+    }
+}

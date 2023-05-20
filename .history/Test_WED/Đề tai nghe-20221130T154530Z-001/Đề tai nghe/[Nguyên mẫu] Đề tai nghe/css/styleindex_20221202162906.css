@@ -1,0 +1,47 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.logo-header {
+    text-align: center;
+}
+
+.logo-header img {
+    width: 100px;
+    height: 80px;
+    margin: 5px 0;
+    ;
+}
+
+.best-seller-title {
+    text-align: center;
+}
+
+.img-bn {
+    padding: 0;
+}
+
+.product1 {
+    border: 15px solid #D6CBCB;
+    margin-top: 10px;
+}
+
+.relative {
+    background-color: #D6CBCB;
+    opacity: 0.7;
+    padding: 10px 0 0 0;
+    width: 113%;
+    position: relative;
+    top: 15px;
+    right: 15px;
+}
+
+.relative h5 {
+    margin: 0;
+    color: #fff;
+}
+
+.sale-off-product .img-responsive {
+    width: 90%;
+}

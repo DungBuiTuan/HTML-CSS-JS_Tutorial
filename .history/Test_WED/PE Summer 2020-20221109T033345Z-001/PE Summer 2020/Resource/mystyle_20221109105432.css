@@ -1,0 +1,12 @@
+header,
+.right,
+.left,
+footer {
+    background-color: aqua;
+}
+
+footer {
+    text-align: center;
+    padding-top: 2px;
+    font-size: 85%;
+}

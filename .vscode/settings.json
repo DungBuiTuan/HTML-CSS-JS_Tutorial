@@ -1,0 +1,29 @@
+{
+    "workbench.colorTheme": "Copilot Theme",
+    "workbench.preferredDarkColorTheme": "Copilot Theme",
+    "cSpell.enabled": false,
+    "errorLens.enabled": true,
+    "liveServer.settings.donotVerifyTags": false,
+    "workbench.editor.showIcons": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "C:\\Users\\DELL-G3\\OneDrive\\Documents\\SQL Server Management Studio\\SQLQuery1-3.sql",
+            "name": "test",
+            "group": "Gringotts-Database"
+        }
+    ],
+    "material-icon-theme.hidesExplorerArrows": false,
+    "liveServer.settings.multiRootWorkspaceName": "html",
+    "js/ts.implicitProjectConfig.checkJs": false,
+    "js/ts.implicitProjectConfig.target": "ES2020",
+    "javascript.inlayHints.functionLikeReturnTypes.enabled": false,
+    "js/ts.implicitProjectConfig.strictFunctionTypes": true,
+    "js/ts.implicitProjectConfig.strictNullChecks": true,
+    "js/ts.implicitProjectConfig.experimentalDecorators": false,
+    "csharp.inlayHints.types.forImplicitObjectCreation": false,
+    "workbench.list.horizontalScrolling": false,
+    "editor.formatOnSave": true,
+    "liveServer.settings.port": 5501
+}

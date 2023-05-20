@@ -1,0 +1,54 @@
+body {
+    font-size: 130%;
+}
+
+header,
+.right,
+.left,
+footer {
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 2px;
+    font-size: 85%;
+}
+
+header {
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20%;
+}
+
+.left,
+.right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+header h1 {
+    color: blue;
+}
+
+.left {
+    width: 20%;
+}
+
+.right {
+    width: 76%;
+    padding-top: 8px;
+    padding-left: 2px;
+}
+
+span {
+    color: blue;
+    font-weight: bold;
+}

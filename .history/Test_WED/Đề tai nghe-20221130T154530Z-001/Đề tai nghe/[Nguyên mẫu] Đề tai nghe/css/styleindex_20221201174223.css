@@ -1,0 +1,17 @@
+.body {
+    width: 50%;
+}
+
+.footer {
+    width: 100%;
+}
+
+.best-seller-title {
+    text-align: center;
+}
+
+.body .product img {
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+}

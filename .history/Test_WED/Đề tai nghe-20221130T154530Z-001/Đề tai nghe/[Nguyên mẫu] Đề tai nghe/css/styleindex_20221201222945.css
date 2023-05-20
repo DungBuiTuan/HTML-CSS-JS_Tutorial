@@ -1,0 +1,27 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.logo-header {
+    text-align: center;
+}
+
+.logo-header img {
+    width: 100px;
+    height: 80px;
+    margin: 5px 0;
+    ;
+}
+
+.best-seller-title {
+    text-align: center;
+}
+
+.img-bn {
+    padding: 0;
+}
+
+.product {
+    border: 1px solid;
+}
