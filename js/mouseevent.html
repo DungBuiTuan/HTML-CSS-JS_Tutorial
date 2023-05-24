@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>arithmetic</title>
+    <style>
+        ul {
+            display: none;
+        }
+        
+        input:focus~ul {
+            display: block;
+        }
+        
+        div {
+            padding: 50px;
+            background-color: rgba(255, 0, 0, 0.2);
+            text-align: center;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="alo"></div>
+    <p class="myc">sentence 1</p>
+    <p class="myc">sentence 2</p>
+    <p class="myc">sentence 2</p>
+    <button id="button">click me</button>
+    <br>
+    <a href="https://www.youtube.com/watch?v=4ZnQur6rewg&list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5&index=80">youtobe</a>
+    <br>
+    <a href="    https://www.w3schools.com/js/js_htmldom_events.asp">w3s</a>
+    <br>
+
+    <input type="text" placeholder="Search">
+
+    <ul>
+        <li>Bui</li>
+        <li>Tuan</li>
+        <li>Dung</li>
+    </ul>
+
+    <br>
+    <h1>The stopPropagation() Method</h1>
+
+    <p>Click DIV 1:</p>
+    <div onclick="func2()">DIV 2
+        <div onclick="func1(event)">DIV 1</div>
+    </div>
+
+    Stop propagation:
+    <input type="checkbox" id="check">
+
+    <p></p>
+
+    <p>Because DIV 1 is inside Div 2, both DIVs get clicked when you click on DIV 1.</p>
+    <p>Check the stop propagation checkbox, and try again.</p>
+    <p>The stopPropagation() method allows you to prevent propagation of the current event.</p>
+
+    <script src="mouseenvent.js"></script>
+</body>
+
+</html>
