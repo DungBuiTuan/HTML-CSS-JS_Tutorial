@@ -1,0 +1,7 @@
+#map-link:hover{
+    background-color: black;
+}
+
+#map-link::after{
+    background-color: red;
+}

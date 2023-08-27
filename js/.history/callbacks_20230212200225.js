@@ -12,9 +12,9 @@
 //     callBack(text);
 // }
 // set("dung", displayDOM);
-// function greeting(name) {
-//     alert(`Hello, ${name}`);
-// }
+function greeting(name) {
+    alert(`Hello, ${name}`);
+}
 
 function processUserInput(callback) {
     const name = prompt("Please enter your name.");
@@ -58,11 +58,3 @@ $.ajax({
     error   :errorCallback
 });
 */
-
-// const person = (f,l)=>({
-//     first:f,
-//     last:l
-//     }
-//     )
-
-//     console.log(person("a", "b"))

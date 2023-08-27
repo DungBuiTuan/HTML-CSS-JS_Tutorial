@@ -16,23 +16,23 @@
 //     alert(`Hello, ${name}`);
 // }
 
-function processUserInput(callback) {
-    const name = prompt("Please enter your name.");
-    callback(name);
-}
+// function processUserInput(callback) {
+//     const name = prompt("Please enter your name.");
+//     callback(name);
+// }
 
-processUserInput(greeting);
+// processUserInput(greeting);
 
-function doHomework(subject, callback) {
-    console.log(`Starting my ${subject} homework.`);
-    callback();
-}
+// function doHomework(subject, callback) {
+//     console.log(`Starting my ${subject} homework.`);
+//     callback();
+// }
 
-function alertFinished() {
-    console.log('Finished my homework');
-}
+// function alertFinished() {
+//     console.log('Finished my homework');
+// }
 
-doHomework('math', alertFinished);
+// doHomework('math', alertFinished);
 
 /*
 function successCallback() {
@@ -59,10 +59,10 @@ $.ajax({
 });
 */
 
-// const person = (f,l)=>({
-//     first:f,
-//     last:l
-//     }
-//     )
+const person = (f,l)=>({
+    first:f,
+    last:l
+    }
+    )
 
-//     console.log(person("a", "b"))
+    console.log(person("a", "b"))
